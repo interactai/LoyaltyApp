@@ -192,7 +192,6 @@ export const translations = {
     themeFestive: "Festive",
     whatsappStatus: "WhatsApp Status",
     instaPost: "Instagram Post",
-    // Help Section Specific
     guide_title: "How to use the App",
     guide_step1_title: "Scan Products",
     guide_step1_desc: "Look for QR stickers on packaging and use our scanner to earn points instantly.",
@@ -236,11 +235,19 @@ export const translations = {
     faq_admin_q2: "How to manage ads?",
     faq_admin_q3: "How to monitor the whole network?",
     faq_admin_a3: "The Super Admin dashboard shows aggregated stats for points issued, redemptions, and active users across all stores.",
-    // Added camera specific translations for QRScanner to fix TypeScript errors
     cameraPermissionDenied: "Permission denied. Please allow camera access in your browser settings.",
     cameraNotFound: "No camera found on this device.",
     cameraInUse: "Camera is already in use by another application.",
-    cameraError: "Unable to access camera."
+    cameraError: "Unable to access camera.",
+    login_benefit_title: "Power Your Distribution",
+    login_benefit_geo_title: "Geo-Consumption Insights",
+    login_benefit_geo_desc: "Instantly see which pin-codes are consuming your brand most and where demand is low.",
+    login_benefit_loyalty_title: "Loyalty Tracking Sorted",
+    login_benefit_loyalty_desc: "Real-time ledger of retailer engagement. No manual registers or tracking sheets needed.",
+    login_benefit_price_title: "No Discounts Required",
+    login_benefit_price_desc: "Drive growth with rewards, not price slashing. Protect your brand's premium value.",
+    login_benefit_perception_title: "Increased Brand Perception",
+    login_benefit_perception_desc: "Position your brand as a technology-first industrial leader in the B2B market."
   },
   hi: {
     overview: "मेन्यू",
@@ -422,7 +429,7 @@ export const translations = {
     applyBranding: "ब्रांडिंग लागू करें",
     primaryColor: "प्राथमिक रंग",
     typography: "टाइपोग्राफी",
-    borderRadius: "बॉर्डर रेडियस",
+    borderRadius: "बॉडऱ रेडियस",
     creativeTheme: "क्रिएटिव थीम",
     creativeFormat: "क्रिएटिव फॉर्मेट",
     generateCreative: "क्रिएटिव जनरेट करें",
@@ -434,7 +441,6 @@ export const translations = {
     themeFestive: "उत्सव",
     whatsappStatus: "व्हाट्सएप स्टेटस",
     instaPost: "इंस्टाग्राम पोस्ट",
-    // Help Section Specific (Hindi)
     guide_title: "ऐप का उपयोग कैसे करें",
     guide_step1_title: "प्रोडक्ट स्कैन करें",
     guide_step1_desc: "पैकेजिंग पर QR स्टिकर ढूंढें और तुरंत पॉइंट कमाने के लिए हमारे स्कैनर का उपयोग करें।",
@@ -478,10 +484,18 @@ export const translations = {
     faq_admin_a2: "'ऑफर्स' सेक्शन में जाकर फोटो अपलोड करें जो सभी दुकानदारों को ऐप में दिखेगी।",
     faq_admin_q3: "पूरे नेटवर्क की निगरानी कैसे करें?",
     faq_admin_a3: "एडमिन डैशबोर्ड में आपको सभी दुकानों का कुल हिसाब और स्कैन डेटा एक साथ दिखता है।",
-    // Added camera specific translations for QRScanner in Hindi
     cameraPermissionDenied: "अनुमति नहीं मिली। कृपया अपनी ब्राउज़र सेटिंग्स में कैमरा एक्सेस की अनुमति दें।",
     cameraNotFound: "इस डिवाइस पर कोई कैमरा नहीं मिला।",
     cameraInUse: "कैमरा पहले से ही किसी अन्य एप्लिकेशन द्वारा उपयोग किया जा रहा है।",
-    cameraError: "कैमरा एक्सेस करने में असमर्थ।"
+    cameraError: "कैमरा एक्सेस करने में असमर्थ।",
+    login_benefit_title: "अपने डिस्ट्रीब्यूशन को सशक्त बनाएं",
+    login_benefit_geo_title: "भौगोलिक खपत जानकारी",
+    login_benefit_geo_desc: "तुरंत देखें कि कौन से पिन-कोड आपके ब्रांड का सबसे अधिक उपभोग कर रहे हैं।",
+    login_benefit_loyalty_title: "लॉयल्टी ट्रैकिंग आसान",
+    login_benefit_loyalty_desc: "पार्टनर जुड़ाव का वास्तविक समय लेखा-जोखा। अब मैन्युअल रजिस्टर की जरूरत नहीं।",
+    login_benefit_price_title: "डिस्काउंट की जरूरत नहीं",
+    login_benefit_price_desc: "इनाम के साथ विकास बढ़ाएं, कीमत घटाकर नहीं। अपने ब्रांड की वैल्यू बचाएं।",
+    login_benefit_perception_title: "ब्रांड की बेहतर छवि",
+    login_benefit_perception_desc: "अपने ब्रांड को B2B मार्केट में एक टेक्नोलॉजी लीडर के रूप में स्थापित करें।"
   }
 };
