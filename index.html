@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" class="h-full">
   <head>
@@ -123,13 +122,15 @@
 </head>
   <body class="h-full bg-gray-100 dark:bg-slate-950 text-gray-900 dark:text-gray-100 antialiased transition-colors duration-200">
     <div id="root"></div>
+    <!-- Main Entry Point -->
+    <script type="module" src="index.tsx"></script>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
           navigator.serviceWorker.register('/sw.js').then(reg => {
             console.log('SW Registered', reg.scope);
           }).catch(err => {
-            console.log('SW Registration failed', err);
+            console.warn('SW Registration failed', err);
           });
         });
       }

@@ -1,4 +1,3 @@
-
 const CACHE_NAME = 'vistaloyalty-v1';
 const urlsToCache = [
   '/',
